@@ -2,7 +2,6 @@ import sys
 import os
 sys.path.append(sys.path[0] + "/...")
 sys.path.append(os.getcwd())
-from time import sleep
 from Src.TestBase.WebDriverSetup import WebDriverSetup
 from Src.PageObject.Locators import *
 from Src.PageObject.Elements import *

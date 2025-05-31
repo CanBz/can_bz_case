@@ -1,6 +1,5 @@
 import sys
 sys.path.append(sys.path[0] + "/...")
-from time import sleep
 from Src.PageObject.Elements import *
 from Src.TestBase.WebDriverSetup import WebDriverSetup
 import unittest
