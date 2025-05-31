@@ -26,13 +26,13 @@ class Insider_CareersPage(unittest.TestCase):
         print("Clickable to Careers Button")
         careers_button.click()
     
-    def test_03_careers_button(self): 
+    def test_03_lifeatinsider_block(self): 
         self.elements.wait_for_element(CareersPageLocators.LIFE_AT_INSIDER_SECTION)
         lifeatinsider_block = self.elements.checkInsiderSection()
         self.assertTrue(lifeatinsider_block.is_displayed(), "lifeatinsider block does not exist")
         print("lifeatinsider block exists")
       
-    def test_04_careers_button(self):
+    def test_04_ourlocations_block(self):
         self.elements.wait_for_element(CareersPageLocators.OUR_LOCATIONS_SECTION)
         ourlocations_block = self.elements.checkOurLocations()
         self.assertTrue(ourlocations_block.is_displayed(), "OurLocations block does not exist")
